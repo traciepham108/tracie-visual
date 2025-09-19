@@ -1,0 +1,161 @@
+#familyName
+{
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size:60pt;
+    margin-top:-130px;
+    font-weight:200;
+}
+#titleName {
+    font-size:100pt;
+    font-weight: 200;
+}
+#nameTitle { 
+    align-items: center; margin-left: 5%; 
+}
+nav {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    margin-bottom: 20px; /* optional spacing */
+}
+
+nav ul {
+    list-style: none; /* remove bullet points */
+    padding: 0;
+    margin: 0;
+    font-size:x-large;
+    background-color:#F28705;
+    padding: 14px;
+    width:max-content;
+}
+
+
+nav li {
+    color:darkslategrey;
+    background-color: #CAF272;
+    display: inline-block;
+    padding: 20px;
+    font-size: 15pt;
+    font-family: "Lexend Deca", sans-serif;
+    border-radius: 40px;
+    margin: 0 10px; /* space between menu items */
+    display: block;
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size:40pt;
+    font-weight:300;
+
+}
+h2 {
+    margin-top:10px;
+}
+    .bannerVideo {
+    width: 100%;       /* make it span across the page */
+    height: 200;      /* keeps the aspect ratio */
+    display: block;    /* removes small gaps below inline elements */
+    margin: 0 auto;    /* keeps it centered if not full width */
+    max-height: 500px; /* optional: set a max height */
+    object-fit: cover; /* ensures the video fills nicely without distortion */
+}
+.videoContainer {
+    position: relative;   /* allows text to be positioned inside */
+    width: 100%;
+    max-height: 500px;    /* optional: limit height */
+    overflow: hidden;
+}
+
+.bannerVideo {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;    /* keeps video filling area nicely */
+}
+
+.videoText {
+    position: absolute;   
+    top: 72%;             /* centers vertically */   
+    left:5%;   
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+h3 {
+    font-size: 30pt;
+    margin: 0;
+    color:gold;
+    font-weight:300;
+    text-shadow: 1px 1px 4px rgba(23, 23, 23, 0.6);
+}
+.jD {
+    font-size: 18pt; 
+    color: darkslategray;
+    text-shadow:none;
+    margin-top:-40px;          
+    margin-left:1.5%;
+    line-height:3;
+}
+.splitContainer {
+  display: flex;
+  height: 100vh; 
+  max-width:500;
+  margin: 0;
+  padding: 0;
+}
+
+.splitLeft {
+  background-color:#E3F2C2;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:40%;
+  height:688px;
+  
+}
+.splitLeft p{
+    font-size:1.5rem;
+}
+.button {
+  border: none;
+  color: black;
+  background-color: #F28705;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 200px;
+  border-radius: 20px;
+  align-content: center;
+}
+a:link, a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.splitRight1 {
+  background-color:#E3F2C2;
+  padding:50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:531px;
+  height:688px;
+}
+.splitContainer1 {
+  display: flex;
+  height: 100vh; 
+  max-width:500;
+  margin: 0;
+  padding: 0;}
+
+  .splitRight1 p{
+    font-size:1.5rem;}
+
+  

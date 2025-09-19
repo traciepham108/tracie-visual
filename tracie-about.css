@@ -1,0 +1,48 @@
+img {
+    margin-left:200px;
+    border-radius: 50px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size:40pt;
+    font-weight:300;}
+
+ body {
+            margin: 0;
+            padding: 0;
+        }
+nav {
+    display:flex;
+    justify-content: center;
+    margin-bottom:20px;
+}
+        nav ul {
+            list-style: none;
+            margin: 0;
+            font-size:x-large;
+            background-color:#f28705; 
+            padding:14px;
+            width:max-content;
+
+            
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            display:block;
+            color:white;
+            border-radius:10px;
+            font-size:15pt;
+            font-family:"Lexend Deca", sans-serif;
+            display:inline-block;
+
+        }
+h3 {
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+    font-size:x-large;}
+
+  

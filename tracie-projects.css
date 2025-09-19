@@ -1,0 +1,91 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size:40pt;
+    font-weight:300;}
+
+ body {
+            margin: 0;
+            padding: 0;
+        }
+nav {
+    display:flex;
+    justify-content: center;
+    margin-bottom:20px;
+}
+        nav ul {
+            list-style: none;
+            margin: 0;
+            font-size:x-large;
+            background-color:#f28705; 
+            padding:14px;
+            width:max-content;
+
+            
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            display:block;
+            color:white;
+            border-radius:10px;
+            font-size:15pt;
+            font-family:"Lexend Deca", sans-serif;
+            display:inline-block;
+
+        }
+
+        /* Split container fix */
+        .project-splitContainer {
+            display: flex;
+            width: 100%;
+            margin: 20px;
+        }
+
+        .project-splitContainer .splitLeft,
+        .project-splitContainer .splitRight {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .project-splitContainer .splitLeft {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .project-splitContainer .splitLeft img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .project-splitContainer .splitRight h2 {
+            font-family: "Lexend Deca", sans-serif;
+            font-size: 28px;
+            margin-bottom: 10px;
+            margin-left:-100px;
+        }
+
+        .project-splitContainer .splitRight h4 {
+            font-weight: 400;
+            margin-top: 0;
+            color: gray;
+            margin-left:-100px;
+        }
+
+        .project-description {
+            max-width: 900px;
+            margin-left:-100px;
+            margin-right:80px;
+            line-height: 1.6;
+            font-family: "Lexend Deca", sans-serif;
+        }
+  h3 {
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+    font-size:x-large;
+
+  }
